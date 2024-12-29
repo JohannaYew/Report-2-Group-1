@@ -21,8 +21,8 @@ const int encoderPin1 = A1;
 const int encoderPin2 = A0;
 
 // Encoder Constants
-const float wheelCircumference = 16; // Wheel circumference in cm
-const int pulsesPerRevolution = 30;    // Encoder PPR
+const float wheelCircumference = 21.7; 
+const int pulsesPerRevolution = 18;   
 const float cmPerPulse = wheelCircumference / pulsesPerRevolution;
 
 // Variables for encoders
